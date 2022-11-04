@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: roboto;
+}
+
+.titulo {
+	color: #fffae7 !important;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	background-color: #d2001a;
+}
+
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+a:not(:disabled) {
+	color: #d2001a;
+}
+.red {
+	color: #d2001a !important;
+}
+
+.bienvenida {
+	text-align: center;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#mouse {
+	height: 180px;
+	width: 180px;
+}
+
+#imgCarrito {
+	height: 100px;
+	width: 100px;
+	border-radius: 6px;
+	object-fit: contain;
+	margin-right: 20px;
+}
+
+#nombreCarrito {
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#precioCarrito {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#precioTotal {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+body {
+	background-color: #d2001a;
+}
+
+header {
+	z-index: 100;
+}
+
+.carrito {
+	min-height: 80vh;
+	max-width: 1000px;
+	margin: 0 auto;
+	width: 100%;
+}
+.inputCarrito {
+	display: flex;
+	justify-content: center;
+	width: 7rem;
+	outline: 0;
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 30px;
+	margin-bottom: 20px;
+}

@@ -86,7 +86,6 @@ function renderCarrito() {
         <div class="card-body ">
         <div style= "margin: 5px">
         <h3 id="nombreCarrito"> ${item.nombre} </h3>
-        <input type="number" min="1" value=${item.cantidad} class="inputCarrito input__elemento" >
         <p id="precioCarrito"> Precio: $${item.precio} </p>
         <div class="d-grid gap-2">
         <button onclick= "eliminarItem(${item.id})" class="btn btn-danger btn-sm"  
@@ -227,3 +226,7 @@ window.onload = function () {
 // 	calcularTotal();
 // 	return null;
 // }
+
+{
+	/* <input type="number" min="1" value=${item.cantidad} class="inputCarrito input__elemento" > */
+}
